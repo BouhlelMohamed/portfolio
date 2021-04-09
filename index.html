@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <title>Mohamed Bouhlel | Développeur Web</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+</head>
+<body class="bg-color text-color my-7 px-44">
+    <section class="container">
+        <header class="mb-52">
+            <h1 class="color-base text-5xl initial-font">MB</h1>
+        </header>
+        <main>
+            <article class="grid grid-cols-3 grid-presentation">
+                <div></div>
+                <div>
+                    <div class="text-7xl text-center name-font firstname-and-lastname">Mohamed Bouhlel</div>
+                    <div class="text-2xl text-center">Développeur Web Fullstack</div>
+                </div>
+                <div></div>
+            </article>
+        </main>
+    </section>
+</body>
+</html>
+
+<style>
+    html {
+        width:100%;
+    }
+
+    body {
+        background-color:#f2f2f2;
+        margin:0;
+        padding:0;
+    }
+    .firstname-and-lastname {
+        background-image: radial-gradient(#ffdbdb1a 20%, #0000 20%), radial-gradient(#fafafa0a 20%, transparent 20%);
+        background-position: 0 0, 25px 25px;
+        background-size: 50px 50px;
+    }
+    .bg-color {
+        background: #1f2235;
+    }
+    .text-color {
+        color: white;
+    }
+    .color-base {
+        color: #ff8b8b;
+    }
+    .grid-presentation {
+        grid-template-columns: 25% auto 25%;
+    }
+    .initial-font {
+        font-family: 'Ballet', cursive;
+    }
+    .name-font {
+        font-family: 'Train One', cursive;
+    }
+    .title-font {
+        font-family: 'Playfair Display SC', serif;
+    }
+</style>
