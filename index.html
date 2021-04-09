@@ -1,39 +1,45 @@
 <!doctype html>
 <html>
-<head>
-    <title>Mohamed Bouhlel | Développeur Web</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
-</head>
-<body class="bg-color text-color my-7 px-44">
-    <section class="container">
-        <header class="mb-52">
-            <h1 class="color-base text-5xl initial-font">MB</h1>
+    <head>
+        <title>Mohamed Bouhlel | Développeur Web</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-color text-color">
+        <header class="my-7 px-44">
+            <div class="mb-52">
+                <h1 class="color-base text-5xl initial-font">MB</h1>
+            </div>
+            <section class="container mb-80">
+                    <article class="grid grid-cols-3 grid-presentation">
+                        <div></div>
+                        <div>
+                            <div class="text-7xl text-center name-font firstname-and-lastname">Mohamed Bouhlel</div>
+                            <div class="text-2xl text-center">Développeur Web Fullstack</div>
+                        </div>
+                        <div></div>
+                    </article>
+            </section>
         </header>
-        <main>
-            <article class="grid grid-cols-3 grid-presentation">
-                <div></div>
-                <div>
-                    <div class="text-7xl text-center name-font firstname-and-lastname">Mohamed Bouhlel</div>
-                    <div class="text-2xl text-center">Développeur Web Fullstack</div>
-                </div>
-                <div></div>
-            </article>
+        <main class="bg-color-blue">
+            <section class="my-7 py-60">
+                <h1 class="uppercase color-base">
+                    Mes compétences
+                </h1>
+            </section>
         </main>
-    </section>
-</body>
+    </body>
 </html>
 
 <style>
     html {
         width:100%;
     }
-
     body {
         background-color:#f2f2f2;
         margin:0;
@@ -47,11 +53,14 @@
     .bg-color {
         background: #1f2235;
     }
+    .bg-color-blue {
+        background: #333755;
+    }
     .text-color {
         color: white;
     }
     .color-base {
-        color: #ff8b8b;
+        color: #ffb14e;
     }
     .grid-presentation {
         grid-template-columns: 25% auto 25%;
